@@ -1,0 +1,38 @@
+[
+  {
+    "product": "Imperial clasico cincelado en alpaca",
+    "price": 6500,
+    "img": "assets/img/imperialclasic.jpg"
+  },
+
+  {
+    "product": "Imperial cuero cincelado",
+    "price": 7800,
+    "img": "assets/img/imperialcuero.jpg"
+  },
+
+  {
+    "product": "Imperial base de alpaca",
+    "price": 8500,
+    "img": "assets/img/imperialalpaca.jpg"
+  },
+
+  {
+    "product": "Camionero virola de alpaca cincelada",
+    "price": 5500,
+    "img": "assets/img/camionerocincelado.jpeg"
+  },
+
+  {
+    "product": "Camionero virola de alpaca",
+    "price": 4800,
+    "img": "assets/img/camioneroalpaca.jpeg"
+  },
+
+  {
+    "product": "Torpedo virola de alpaca",
+    "price": 5000,
+    "img": "assets/img/torpedoalpaca.jpeg"
+  }
+  
+]

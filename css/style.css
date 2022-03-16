@@ -1,0 +1,71 @@
+.products{
+    background: url(../assets/img/matelago.jpg) no-repeat center;
+    background-size: cover;
+    min-height: 100vh;
+}
+.text-one{
+  text-align: center;
+  color: rgb(46, 104, 19);
+}
+.navbar{
+  background-color: rgb(78, 75, 75) !important;
+}
+.item {
+    border: 1px solid rgb(240, 232, 232);
+    padding: 10px;  
+  }
+  
+  .item-title {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+  }
+  
+  .item-image {
+    height: 250px;
+    width: 100%;
+  }
+  
+  .item-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0px 15px;
+  }
+  
+  .item-details > .item-price {
+    margin: 0;
+  }
+  
+  /* carrito */
+  .shopping-cart{
+    background-color: rgb(88, 82, 82);
+  }
+  .text-center{
+    color: rgb(51, 53, 51);
+  }
+  .shopping-cart-items {
+    padding: 20px 0px;
+  }
+  
+  .shopping-cart-header {
+    border-bottom: 1px solid rgb(90, 236, 102);
+  }
+  
+  .shopping-cart-image {
+    max-width: 80px;
+    border-radius: 20px;
+  }
+  
+  .shopping-cart-quantity-input {
+    max-width: 45px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #eee;
+    padding: 5px;
+  }
+  
+  .shopping-cart-total {
+    min-height: 96px;
+  }
+  
