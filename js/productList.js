@@ -3,6 +3,16 @@ function refrescarEventoAddToCart()
 	var addToShoppingCartButtons = document.querySelectorAll('.addToCart');
 addToShoppingCartButtons.forEach((addToCartButton) => {
   addToCartButton.addEventListener('click', addToCartClicked);
+
+  // Uso sweetalert2 
+  addToCartButton.addEventListener("click", () => {
+    Swal.fire({
+      text: "Agregaste el producto al carrito",
+      backdrop: true,
+      showConfirmButton: false,
+      timer: 1000
+    }) });
+
 });
 
 }
