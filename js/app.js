@@ -1,5 +1,6 @@
 
 const addToShoppingCartButtons = document.querySelectorAll('.addToCart');
+
 addToShoppingCartButtons.forEach((addToCartButton) => {
   addToCartButton.addEventListener('click', addToCartClicked);
 });
@@ -40,18 +41,6 @@ function addItemToShoppingCart(itemTitle, itemPrice, itemImage) {
     }
   }
 
-// usar fetch en cards
-// document.getElementById('btn-cart').addEventListener('click', loadProduct);
-// function loadProduct() {
-//   fetch('products.json')
-
-//   .then(function(res){ 
-//     return res.json()})
-
-//   .then(function(data){
-//     console.log(data);
-//     data.forEach(function(data) {
-
   const shoppingCartRow = document.createElement('div');
   const shoppingCartContent = `
   <div class="row shoppingCartItem">
@@ -78,9 +67,6 @@ function addItemToShoppingCart(itemTitle, itemPrice, itemImage) {
   shoppingCartRow.innerHTML = shoppingCartContent;
   shoppingCartItemsContainer.append(shoppingCartRow);
 
-// })
-// });
-
   shoppingCartRow
     .querySelector('.buttonDelete')
     .addEventListener('click', removeShoppingCartItem);
@@ -90,8 +76,9 @@ function addItemToShoppingCart(itemTitle, itemPrice, itemImage) {
     .addEventListener('change', quantityChanged);
 
   updateShoppingCartTotal();
-
 }
+
+
 
 
 function updateShoppingCartTotal() {
@@ -134,3 +121,4 @@ function comprarButtonClicked() {
   shoppingCartItemsContainer.innerHTML = '';
   updateShoppingCartTotal();
 }
+

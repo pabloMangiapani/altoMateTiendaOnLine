@@ -18,7 +18,9 @@
   .item-title {
     text-transform: uppercase;
     text-align: center;
-    font-weight: 600;
+    font-weight: 550;
+    font-size: 20px;
+
   }
   
   .item-image {
@@ -43,6 +45,7 @@
   }
   .text-center{
     color: rgb(51, 53, 51);
+    padding-top: 25px;
   }
   .shopping-cart-items {
     padding: 20px 0px;

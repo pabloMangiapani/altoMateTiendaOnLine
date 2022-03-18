@@ -20,19 +20,19 @@
   {
     "product": "Camionero virola de alpaca cincelada",
     "price": 5500,
-    "img": "assets/img/camionerocincelado.jpeg"
+    "img": "assets/img/camionerocincelado.jpg"
   },
 
   {
     "product": "Camionero virola de alpaca",
     "price": 4800,
-    "img": "assets/img/camioneroalpaca.jpeg"
+    "img": "assets/img/camioneroalpaca.jpg"
   },
 
   {
     "product": "Torpedo virola de alpaca",
     "price": 5000,
-    "img": "assets/img/torpedoalpaca.jpeg"
+    "img": "assets/img/torpedoalpaca.jpg"
   }
   
 ]
