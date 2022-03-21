@@ -122,13 +122,3 @@ function comprarButtonClicked() {
   updateShoppingCartTotal();
 }
 
-//uso sweet alert en boton comprar
-
-const btn = document.querySelector(".addToCart");
-btn.addEventListener("click", () => {
-  Swal.fire({
-    text: "Agregaste el producto al carrito",
-    backdrop: true,
-    showConfirmButton: false,
-    timer: 1000
-  }) });
